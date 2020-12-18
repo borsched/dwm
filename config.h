@@ -112,6 +112,7 @@ static Key keys[] = {
 	{ MODKEY,                       XK_e,       spawn,         SHCMD("chromium")	},
 	{ MODKEY,                       XK_p,       spawn,         SHCMD("pavucontrol")},
 	{ MODKEY,                       XK_z,       spawn,         SHCMD(TERMINAL " -e ~/zoom-joiner/zoom.py")},
+	{ ControlMask,                  XK_Print,   spawn,         SHCMD("flameshot gui")},
 };
 
 /* button definitions */
